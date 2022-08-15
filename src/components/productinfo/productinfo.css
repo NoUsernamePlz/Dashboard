@@ -1,0 +1,23 @@
+.product{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10%;
+    border-left: 1px solid rgb(191, 234, 245);
+    max-width: 15vw;
+
+}
+.productname{
+    display: flex;
+    justify-content: space-between;
+    cursor:pointer;
+}
+.index{
+    background-color: rgb(56, 108, 154);
+    border-radius: 20%;
+    height: 20px;
+    width:30px;
+    color:white;
+}
+.pname{
+   margin-left: 10%;
+}

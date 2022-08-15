@@ -1,0 +1,185 @@
+.home{
+    flex:7;
+   
+ background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+ 
+
+
+
+-webkit-box-shadow: -18px -7px 35px 0px rgb(186, 206, 218);
+-moz-box-shadow: -18px -7px 35px 0px rgb(197, 212, 219);
+box-shadow: -18px -7px 35px 0px rgb(204, 221, 230);
+
+
+
+
+ 
+    border-radius: 2.3%;
+    display: flex;
+    justify-content: center;
+    
+    flex-direction: column;
+    
+
+}
+.Hcontainer{
+    display: flex;
+   font-size: 15px;
+    justify-content: space-between;
+    color:rgb(50, 49, 49)
+}
+.homeright{
+    flex:1;
+    min-width: 25vh;
+}
+.hcontainert{
+    display:flex;
+    
+}
+.homeleft{
+    flex:4;
+    max-width: 68vw;
+}
+.infocontainer{
+    display: flex;
+    border-bottom:1.5px solid  #e6e6ff
+}
+.infocontainerR{
+    flex:4;
+    margin-top: 5%;
+    cursor: pointer;
+}
+.infocontainerL{
+    flex:1;
+}
+.bottominfo{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.areachatsection{
+    flex:1;
+    padding: 1.2%; 
+    /* max-width: 20vw;   */
+}
+
+.areachart{
+    /* max-width: 20vw; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.donutchartsection{
+    flex:1;
+    /* max-width: 20vw;    */
+}
+.productinfosection{
+    flex:2;
+    align-items: center;
+    max-width: 15vw;
+}
+.cancelW{
+    color:white;
+    font-size: small;
+}
+.CompletedB{
+    color:#0088FE;
+    font-size: smaller;
+}
+.PendingG{
+    color:#00C49F;
+    font-size: smaller;
+}
+.donutchartlabel{
+    margin-bottom: 20%;
+}
+/* .donutchartsection{
+    padding-left: 3%;
+} 
+
+*/
+
+
+/* @media (max-width:1400),(max-height:950) {
+    .areachatsection{
+        /* max-width: 7vh; */
+    /* }  */
+
+    /* .areachart{ */
+        /* max-width: 7vh; */
+    /* }  */ 
+    
+/* } */
+@media  (max-width:1210px){
+    /* .donutchartsection{
+        padding-left: 20%;
+        
+        /* max-width: 20vw; */
+    /* } */ 
+    
+    .productinfosection{
+        visibility: hidden;
+        flex: none;
+        width: 0;
+    }
+
+}
+
+.donutchart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* @media (max-width:1000px) {
+    .bottominfo{
+        flex-direction: column;
+        display: flex;
+    }
+    .donutchart{
+        min-width: 50%;
+    }
+} */
+
+@media (max-width:700px) {
+    .Hcontainer{
+        display: flex;
+       font-size: 15px;
+       flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        color:rgb(50, 49, 49)
+    }
+    .homeright{
+        flex:1;
+        max-width: 60vw;
+        max-height: 50vh;
+    }
+    .infocontainer{
+        flex-direction: column;
+         width:0;
+        height: 0;
+        visibility: hidden;
+        flex:0;
+
+    }
+    .infocontainerL{
+        width:0;
+        height: 0;
+        visibility: hidden;
+        flex:0;
+    }
+    .areachatsection{
+        margin-top: 0;
+        min-height: 25vh;
+    }
+    .bottominfo{
+        flex-direction: column;
+        margin-top: 10vh;
+    }
+
+    
+}
+
+

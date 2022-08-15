@@ -1,0 +1,40 @@
+.months{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+    position: relative;
+}
+.smallinfo{
+    color: green;
+    position: absolute;
+    bottom: 0;
+    right:20%;
+    font-size: 12px;
+}
+
+.monfo{
+    font-size: smaller;
+    color: #555;
+}
+.monprice{
+    font-size: 30px !important;
+    font-weight: 600 !important;
+    color: rgb(42, 40, 40);
+}
+.odersales{
+    display:flex;
+    justify-content: space-between;
+    padding: 7%;
+}
+.Stext,.Otext{
+    color: #555;
+    font-size: 13px;
+}
+.Otext,.Stext{
+
+    margin-bottom: 5px;
+}
+@media (max-width:14056px) {
+    
+      
+}

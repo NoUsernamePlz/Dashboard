@@ -1,0 +1,19 @@
+
+.wrapperRA{
+    margin-top: 10%;
+}
+
+.RAinfo{
+display: flex;
+justify-content: space-between;
+padding:6% 0;
+cursor: pointer;
+}
+.ratext{
+    text-align: left;
+    font-size: 12px;
+    padding-left: 5%;
+}
+@media (max-width:1250) {
+    .ratext{text-align: center;}
+}
